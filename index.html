@@ -1,0 +1,537 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <link rel="stylesheet" href="css/all.min.css" />
+  <link rel="stylesheet" href="css/bootstrap.min.css" />
+  <link rel="stylesheet" href="css/main.css" />
+
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@200;300;400;500;600;700;800&display=swap"
+    rel="stylesheet" />
+
+  <title>EliteCorp Project</title>
+</head>
+
+<body>
+  <!-- Upper Bar -->
+  <div class="upper-bar py-3">
+    <div class="container">
+      <div class="row align-items-center">
+        <div class="text-center mb-3 mb-sm-0 col-sm text-sm-start">
+          <p>
+            <i class="fa-solid fa-phone"></i> 0900909090,
+            <i class="fa-solid fa-envelope"></i> Mohamed@Mohamed.Com
+          </p>
+        </div>
+        <div class="d-flex align-items-center col-sm justify-content-center justify-content-sm-end">
+          <p>Let's Work Together</p>
+          <a href="#" type="button" data-bs-toggle="modal" data-bs-target="#quote-modal"
+            class="main-btn py-2 px-4 ms-3 fs-4">get quote</a>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- Quote Modal -->
+  <div class="modal fade " id="quote-modal" tabindex="-1" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content p-5">
+        <h3 class="lh-lg fw-bold fs-1">
+          “Success is not final; failure is not fatal: it is the courage to continue that counts.”
+          <span class="text-capitalize d-block mt-3 fst-italic">- winston churchill</span>
+        </h3>
+      </div>
+    </div>
+  </div>
+  <!-- Navbar -->
+  <nav class="navbar navbar-expand-lg navbar-light">
+    <div class="container">
+      <a class="navbar-brand" href="#">Elite<span>Corp</span></a>
+      <button class="navbar-toggler shadow-none" type="button" data-bs-toggle="collapse" data-bs-target="#mainnav"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon fs-1"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="mainnav">
+        <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#">home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">about</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">work</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">blog</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">contact</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  <!-- Home Slider -->
+  <div class="slider">
+    <div id="main-slider" class="carousel slide" data-bs-ride="carousel">
+
+      <div class="carousel-inner d-flex align-items-center">
+        <div class="overlay"></div>
+        <h1 class="introText">
+          we're an independent design and <span>development</span> agency
+        </h1>
+        <div class="carousel-item carousel-one active">
+        </div>
+        <div class="carousel-item carousel-two">
+        </div>
+        <div class="carousel-item carousel-three">
+        </div>
+      </div>
+
+
+      <div class="carousel-indicators">
+        <button type="button" data-bs-target="#main-slider" data-bs-slide-to="0" class="active control"
+          aria-current="true" aria-label="Slide 1"></button>
+        <button class="control" type="button" data-bs-target="#main-slider" data-bs-slide-to="1"
+          aria-label="Slide 2"></button>
+        <button class="control" type="button" data-bs-target="#main-slider" data-bs-slide-to="2"
+          aria-label="Slide 3"></button>
+      </div>
+    </div>
+  </div>
+  <!-- Features -->
+  <section class="features bg-white">
+    <div class="container">
+      <div class="row text-center gy-5">
+        <div class="col-sm-6 col-md-3">
+          <i class="fa-solid fa-3x fa-heart"></i>
+          <h3 class="my-3">greate idea</h3>
+          <p>
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolorem dolorum nihil ipsam nemo beatae sequi.
+          </p>
+        </div>
+        <div class="col-sm-6 col-md-3">
+          <i class="fa-sharp fa-3x fa-solid fa-gear"></i>
+          <h3 class="my-3">quick settings</h3>
+          <p>
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolorem dolorum nihil ipsam nemo beatae sequi.
+          </p>
+        </div>
+        <div class="col-sm-6 col-md-3">
+          <i class="fa-solid fa-3x fa-cloud"></i>
+          <h3 class="my-3">cloud services</h3>
+          <p>
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolorem dolorum nihil ipsam nemo beatae sequi.
+          </p>
+        </div>
+        <div class="col-sm-6 col-md-3">
+          <i class="fa-solid fa-3x fa-bookmark"></i>
+          <h3 class="my-3">cross dev</h3>
+          <p>
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolorem dolorum nihil ipsam nemo beatae sequi.
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- Overview -->
+  <section class="overview text-center">
+    <div class="container">
+      <h2 class="title text-uppercase">company overview</h2>
+      <p class="desc lh-lg">
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore
+        magna
+        aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+        consequat.
+        lvoluptatem.
+      </p>
+      <span class="d-block fs-1 text-capitalize text-black-50 mb-5">lets start today</span>
+      <a href="#" class="main-btn d-inline-block">view more</a>
+    </div>
+  </section>
+  <!-- Featured Work -->
+  <section class="work text-center" id="work">
+    <div class="container">
+      <h2 class="title text-center text-uppercase">company overview</h2>
+      <p class="desc text-center lh-lg">
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore
+        magna
+        aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+        consequat.
+        lvoluptatem.
+      </p>
+      <ul class="d-sm-flex list-unstyled">
+        <li class="active col-md mb-sm-0 mb-1" data-shuffle="all">all</li>
+        <li class="col-md mb-sm-0 mb-1" data-shuffle="website">websites</li>
+        <li class="col-md mb-sm-0 mb-1" data-shuffle="logo">logos</li>
+        <li class="col-md mb-sm-0 mb-1" data-shuffle="graphic">graphic</li>
+        <li class="col-md mb-sm-0 mb-1" data-shuffle="marketing">marketing</li>
+        <li class="col-md mb-sm-0 mb-1" data-shuffle="video">videos</li>
+      </ul>
+    </div>
+    <div class="row shuffle">
+      <div class="col-md-3 col-sm-6">
+        <img class="website" src="images/01.jpg" alt="">
+      </div>
+      <div class="col-md-3 col-sm-6">
+        <img class="logo" src="images/02.jpg" alt="">
+      </div>
+      <div class="col-md-3 col-sm-6">
+        <img class="logo" src="images/03.jpg" alt="">
+      </div>
+      <div class="col-md-3 col-sm-6">
+        <img class="marketing" src="images/04.jpg" alt="">
+      </div>
+      <div class="col-md-3 col-sm-6">
+        <img class="graphic" src="images/05.jpg" alt="">
+      </div>
+      <div class="col-md-3 col-sm-6">
+        <img class="video" src="images/06.jpg" alt="">
+      </div>
+      <div class="col-md-3 col-sm-6">
+        <img class="website" src="images/07.jpg" alt="">
+      </div>
+      <div class="col-md-3 col-sm-6">
+        <img class="marketing" src="images/08.jpg" alt="">
+      </div>
+    </div>
+  </section>
+  <!-- Latest Posts -->
+  <section class="latest bg-white pt-0">
+    <div class="container">
+      <h2 class="title text-center text-capitalize fw-bold">latest posts</h2>
+      <p class="desc lh-lg text-center">
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore
+        magna
+        aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+        consequat.
+        lvoluptatem.
+      </p>
+      <div class="row">
+        <div class="col-lg-4 col-md-6">
+          <div class="card mb-5 mb-lg-0">
+            <img src="images/post01.jpg" class="card-img-top" alt="">
+            <div class="card-body text-center text-md-start">
+              <h5 class="card-title text-capitalize">here's the card title</h5>
+              <span class="text-black-50">Jan 7 2023</span>
+              <p class="card-text">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim aspernatur alias rem numquam ex, libero
+                eos aliquid dolor odit voluptatum quam nesciunt deleniti, provident neque!
+              </p>
+              <button type="button" class="main-btn mt-3">read more</button>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-6">
+          <div class="card mb-5 mb-lg-0">
+            <img src="images/post02.jpg" class="card-img-top" alt="">
+            <div class="card-body text-center text-md-start">
+              <h5 class="card-title text-capitalize">here's the card title</h5>
+              <span class="text-black-50">Jan 7 2023</span>
+              <p class="card-text">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim aspernatur alias rem numquam ex, libero
+                eos aliquid dolor odit voluptatum quam nesciunt deleniti, provident neque!
+              </p>
+              <button type="button" class="main-btn mt-3">read more</button>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-6">
+          <div class="card mb-5 mb-lg-0">
+            <img src="images/post03.jpg" class="card-img-top" alt="">
+            <div class="card-body text-center text-md-start">
+              <h5 class="card-title text-capitalize">here's the card title</h5>
+              <span class="text-black-50">Jan 7 2023</span>
+              <p class="card-text">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim aspernatur alias rem numquam ex, libero
+                eos aliquid dolor odit voluptatum quam nesciunt deleniti, provident neque!
+              </p>
+              <button type="button" class="main-btn mt-3">read more</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- Testimonial -->
+  <section class="testimonials p-0">
+    <div class="container">
+      <div id="testimonials-slider" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#testimonials-slider" data-bs-slide-to="0" class="active control"
+            aria-current="true" aria-label="Slide 1"></button>
+          <button class="control" type="button" data-bs-target="#testimonials-slider" data-bs-slide-to="1"
+            aria-label="Slide 2"></button>
+          <button class="control" type="button" data-bs-target="#testimonials-slider" data-bs-slide-to="2"
+            aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <div class="carousel-caption">
+              <img src="images/testimonial-01.jpg" class="" alt="...">
+              <h3>mohamed lasheen</h3>
+              <span class="text-capitalize">full stack developer</span>
+              <span class="d-block"></span>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae quas aut excepturi, libero eligendi
+                cumque animi dolorum atque sunt magni fuga magnam unde? Sint, harum.
+              </p>
+
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class="carousel-caption">
+              <img src="images/testimonial-02.jpg" class="" alt="...">
+              <h3>mohamed lasheen</h3>
+              <span class="text-capitalize">full stack developer</span>
+              <span class="d-block"></span>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae quas aut excepturi, libero eligendi
+                cumque animi dolorum atque sunt magni fuga magnam unde? Sint, harum.
+              </p>
+
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class="carousel-caption">
+              <img src="images/testimonial-03.jpg" class="" alt="...">
+              <h3>mohamed lasheen</h3>
+              <span class="text-capitalize">full stack developer</span>
+              <span class="d-block"></span>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae quas aut excepturi, libero eligendi
+                cumque animi dolorum atque sunt magni fuga magnam unde? Sint, harum.
+              </p>
+
+            </div>
+          </div>
+        </div>
+        <button class="d-none d-sm-flex carousel-control-prev" type="button" data-bs-target="#testimonials-slider"
+          data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="d-none d-sm-flex carousel-control-next" type="button" data-bs-target="#testimonials-slider"
+          data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+    </div>
+  </section>
+  <!-- Pricing Table -->
+  <section class="pricing" id="pricing">
+    <div class="container">
+      <h2 class="title text-center text-capitalize fw-bold">latest posts</h2>
+      <p class="desc lh-lg text-center">
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore
+        magna
+        aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+        consequat.
+        lvoluptatem.
+      </p>
+      <div class="content row">
+        <div class="col-md-6 col-lg-4 text-center">
+          <div class="box border">
+
+            <h3>small business</h3>
+            <span class="d-block">Lorem, ipsum.</span>
+            <h4 class="price text-uppercase"><span>$99/</span><span>year</span></h4>
+            <ul>
+              <li>Lorem, ipsum dolor.</li>
+              <li>Lorem, ipsum dolor.</li>
+              <li>Lorem, ipsum dolor.</li>
+              <li>Lorem, ipsum dolor.</li>
+              <li>Lorem, ipsum dolor.</li>
+            </ul>
+            <a href="#" class="main-btn text-uppercase">read more</a>
+          </div>
+        </div>
+        <div class="col-md-6 col-lg-4 text-center">
+          <div class="box border corporate">
+
+            <h3>corporate</h3>
+            <span class="d-block">Lorem, ipsum.</span>
+            <h4 class="price text-uppercase"><span>$199/</span><span>year</span></h4>
+            <ul>
+              <li>Lorem, ipsum dolor.</li>
+              <li>Lorem, ipsum dolor.</li>
+              <li>Lorem, ipsum dolor.</li>
+              <li>Lorem, ipsum dolor.</li>
+              <li>Lorem, ipsum dolor.</li>
+            </ul>
+            <a href="#" class="main-btn text-uppercase">read more</a>
+          </div>
+        </div>
+        <div class="col-md-6 col-lg-4 text-center">
+          <div class="box border">
+
+            <h3>enterprise</h3>
+            <span class="d-block">Lorem, ipsum.</span>
+            <h4 class="price text-uppercase"><span>$299/</span><span>year</span></h4>
+            <ul>
+              <li>Lorem, ipsum dolor.</li>
+              <li>Lorem, ipsum dolor.</li>
+              <li>Lorem, ipsum dolor.</li>
+              <li>Lorem, ipsum dolor.</li>
+              <li>Lorem, ipsum dolor.</li>
+            </ul>
+            <a href="#" class="main-btn text-uppercase">read more</a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </section>
+  <!-- Choose Us -->
+  <div class="choose-us">
+    <div class="row">
+      <div class="col-lg-6">
+        <img src="images/choose.png" alt="">
+      </div>
+      <div class="col-lg-6">
+        <div class="info">
+          <h3>why choose us</h3>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores ea, sed quis dolorem facilis pariatur
+            ipsa reiciendis distinctio veritatis, omnis laudantium laboriosam voluptate, accusamus sit perspiciatis
+            perferendis praesentium. Corporis cum nulla voluptatem eveniet dolore sunt officiis quos dolores ipsam,
+            ipsum esse voluptates ea. Laboriosam mollitia suscipit corrupti, nihil placeat rerum, expedita,
+            exercitationem dignissimos ratione iure neque adipisci doloribus tempore harum?
+          </p>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus blanditiis debitis minus illum? Non
+            ducimus aliquam reprehenderit fugiat amet laudantium veritatis itaque assumenda placeat minima. Quaerat
+            perspiciatis tempore voluptatibus error.
+          </p>
+          <a href="#" class="main-btn text-uppercase">read more</a>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- Statistics -->
+  <section class="stats text-center">
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-6 col-lg-3">
+          <div class="box">
+            <i class="fa-solid fa-user"></i>
+            <h3 class="num" data-num="550">0</h3>
+            <p>happy clients</p>
+          </div>
+        </div>
+        <div class="col-sm-6 col-lg-3">
+          <div class="box">
+            <i class="fa-solid fa-heart"></i>
+            <h3 class="num" data-num="125">0</h3>
+            <p>amazing tours</p>
+          </div>
+        </div>
+        <div class="col-sm-6 col-lg-3">
+          <div class="box">
+            <i class="fa-solid fa-briefcase"></i>
+            <h3 class="num" data-num="350">0</h3>
+            <p>partners</p>
+          </div>
+        </div>
+        <div class="col-sm-6 col-lg-3">
+          <div class="box">
+            <i class="fa-solid fa-message"></i>
+            <h3 class="num" data-num="465">0</h3>
+            <p>questions answered</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- Contact Us -->
+  <section class="contact-us">
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-6 text-center mb-5 mb-sm-0">
+          <p class="text-capitalize">
+            you think we're cool? let's work together
+          </p>
+        </div>
+        <div class="col-sm-6 text-center">
+          <a href="#" class="main-btn">contact us</a>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- Footer -->
+  <section class="footer pb-0">
+    <div class="container">
+      <div class="row gy-5 text-center text-sm-start">
+        <div class="col-lg-6">
+          <h3 class="navbar-brand mb-5" href="#">Elite<span>Corp</span></h3>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum, praesentium. Sunt voluptatum ipsam aut
+            dolore inventore minus delectus, sequi aspernatur soluta nostrum voluptatibus vel eum totam eligendi
+            dignissimos ipsum aliquam? Architecto tempore in doloribus voluptatem.
+          </p>
+          <a href="#" class="main-btn mt-4">read more</a>
+        </div>
+        <div class="col-sm-6 col-lg-3 links">
+          <h3>helpful links</h3>
+          <div class="row">
+            <div class="col">
+              <a href="#">about</a>
+              <a href="#">portfolio</a>
+              <a href="#">team</a>
+              <a href="#">price</a>
+              <a href="#">privacy</a>
+            </div>
+            <div class="col">
+              <a href="#" class="text-uppercase">faq</a>
+              <a href="#">blog</a>
+              <a href="#">how it work</a>
+              <a href="#">benefits</a>
+              <a href="#">contact</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-6 col-lg-3 links">
+          <h3>contact us</h3>
+          <p>Cairo, Egypt</p>
+          <p>phone: 01234567899</p>
+          <p>emain: info@mohamed.com</p>
+        </div>
+      </div>
+      <div class="copyright">
+        <p>copyright 2023 EliteCorp &copy;</p>
+        <div class="social">
+          <i class="fa-brands fa-facebook-f"></i>
+          <i class="fa-brands fa-twitter"></i>
+          <i class="fa-brands fa-youtube"></i>
+          <i class="fa-brands fa-google-plus-g"></i>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- 
+          <h2 class="title text-uppercase">company overview</h2>
+      <p class="desc lh-lg">
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore
+        magna
+        aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+        consequat.
+        lvoluptatem.
+      </p>
+
+   -->
+
+
+  <script src="js/jquery-3.6.1.min.js"></script>
+  <script src="js/bootstrap.bundle.min.js"></script>
+  <script src="js/all.min.js"></script>
+  <script src="js/main.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,139 @@
+$main: #89bf1c;
+$secondary: #08526d;
+$light: #777;
+$bg-color: #f0f5f7;
+$black: #000;
+$white: #fff;
+$transition: all .3s;
+
+*,
+p,
+h3 {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+  // overflow: scroll;
+  // overflow-x: hidden;
+
+  ::selection {
+    background-color: $main;
+    color: $white;
+  }
+
+  ::-webkit-scrollbar {
+    width: 1rem;
+  }
+
+  ::-webkit-scrollbar-track {
+    background-color: $white;
+  }
+
+  ::-webkit-scrollbar-thumb {
+    background-color: $main;
+  }
+}
+
+@media (max-width: 768px) {
+  html {
+    font-size: 55%;
+  }
+}
+
+@media (max-width: 576px) {
+  html {
+    font-size: 50%;
+  }
+}
+
+section {
+  padding: 10rem 0 8rem;
+}
+
+body {
+  font-family: 'Nunito', sans-serif;
+  background-color: $black;
+  overflow-x: hidden;
+  // overflow: scroll;
+}
+
+@mixin titleText($size, $co) {
+  font-size: $size;
+  text-transform: capitalize;
+  color: $co;
+}
+
+@mixin graphText($size) {
+  font-size: $size;
+  line-height: 1.7;
+  color: $light;
+}
+
+a {
+  text-decoration: none;
+
+  &:hover {
+    color: $white;
+  }
+}
+
+ul {
+  list-style: none;
+}
+
+.navbar-brand {
+  font-size: 4rem;
+  color: $secondary;
+  font-weight: 800;
+  letter-spacing: -.1rem;
+
+  span {
+    color: $main;
+    font-weight: normal;
+  }
+}
+
+.title {
+  font-size: 4.5rem;
+  color: $black;
+}
+
+.desc {
+  @include graphText(2rem);
+  margin: 2rem auto 5rem;
+  max-width: 75%;
+}
+
+.main-btn {
+  border: .2rem solid $main;
+  display: inline-block;
+  padding: 1rem 3rem;
+  color: $white;
+  font-weight: bold;
+  font-size: 2rem;
+  background-color: $main;
+  text-transform: capitalize;
+  border-radius: .2rem;
+}
+
+.carousel-indicators {
+  margin-bottom: 3rem;
+}
+
+.carousel-indicators .control {
+  margin: 0 .7rem;
+  width: 2rem;
+  height: 1.5rem;
+  background-color: $main;
+  opacity: .3;
+  transition: $transition;
+
+  &.active {
+    opacity: 1;
+    width: 2.7rem;
+    height: 1.6rem;
+  }
+}
