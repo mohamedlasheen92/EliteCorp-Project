@@ -8,6 +8,7 @@ h3 {
 
 html {
   font-size: 62.5%;
+  overflow-x: hidden;
 }
 html ::-moz-selection {
   background-color: #89bf1c;
@@ -286,7 +287,6 @@ ul {
 .testimonials .carousel-caption {
   top: 50%;
   transform: translateY(-50%);
-  height: -webkit-fit-content;
   height: -moz-fit-content;
   height: fit-content;
 }
@@ -369,7 +369,6 @@ ul {
   }
 }
 .choose-us {
-  height: -webkit-fit-content;
   height: -moz-fit-content;
   height: fit-content;
 }
